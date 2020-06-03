@@ -3,7 +3,7 @@ task :help => [:usage]
 task :build => [:multiarch_build]
 task :b => [:multiarch_build]
 
-CONTAINER_NAME = 'unixorn/docker-multimeter'
+CONTAINER_NAME = 'unixorn/sonic-screwdriver'
 
 task :usage do
   puts 'Usage:'
