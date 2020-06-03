@@ -34,7 +34,8 @@ RUN apt-get update && \
       pv \
       strace \
       sysstat \
-      tree && \
+      tree \
+      vim && \
 		rm -fr /tmp/* /var/lib/apt/lists/*
 
 RUN pip3 install yq
